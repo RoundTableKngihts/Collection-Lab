@@ -6,6 +6,6 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 
-class ScrapycrawlerPipeline(object):
+class ScrapyspiderPipeline(object):
     def process_item(self, item, spider):
         return item
