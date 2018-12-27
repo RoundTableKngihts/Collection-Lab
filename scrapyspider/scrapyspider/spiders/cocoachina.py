@@ -21,7 +21,7 @@ class CocoachinaSpider(scrapy.Spider):
         for index, title in enumerate(info_titles):
             infos.append({
                 "create": {
-                    "_index": "cocoachina",
+                    "_index": "cocoachina_news",
                     "_type": "_doc",
                     "_id": cur_time + index
                 }
